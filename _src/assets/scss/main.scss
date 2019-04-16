@@ -1,1 +1,27 @@
+body {
+    background-color: yellowgreen;
+}
 
+.block1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.field {
+    padding-right: 25px;
+}
+
+.list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 40px;
+}
+
+li {
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
